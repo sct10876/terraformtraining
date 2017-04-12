@@ -38,7 +38,7 @@ variable "aws_region" {
 }
 
 variable "num_webs" {
-  default = "2"
+  default = "3"
 }
 
 provider "aws" {
