@@ -52,7 +52,7 @@ resource "aws_instance" "web" {
   ami                    = "ami-eea9f38e"
   instance_type          = "t2.micro"
   subnet_id              = "subnet-b30f9ceb"
-  vpc_security_group_ids = ["sg-834d35e4"]
+  vpc_security_group_ids = ["sg-834d35e41"]
 
   tags {
     Identity = "autodesk-dragonfly"
