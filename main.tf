@@ -57,7 +57,7 @@ resource "aws_instance" "web" {
   tags {
     Identity = "autodesk-dragonfly"
     Org      = "CI-Network"
-    Name     = "Web ${count.index+1}/${var.num_webs}"
+    Name     = "Web ${count.index+1}/${var.num_webs}"/
   }
 }
 
